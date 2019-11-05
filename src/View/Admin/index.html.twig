@@ -1,0 +1,6 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <h1>Access granted for user {{ session.user }}</h1>
+    <a href="/admin/logout" >Logout</a>
+{% endblock %}
